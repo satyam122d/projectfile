@@ -9,6 +9,20 @@ body {
     background: url('pexels-rostislav-5011647.jpg');
     background-size: cover;
 }
+:root {
+    --font-size: 16px;
+  }
+  
+  body {
+    font-size: var(--font-size);
+  }
+  
+  @media (max-width: 600px) {
+    :root {
+      --font-size: 14px;
+    }
+  }
+  
 
 .container {
     display: flex;
