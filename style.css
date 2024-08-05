@@ -4,6 +4,8 @@
 }
 
 body {
+    height: 100%;
+    width: 100%;
     background: url('pexels-rostislav-5011647.jpg');
     background-size: cover;
 }
@@ -22,7 +24,7 @@ body {
     white-space: pre;
     overflow: hidden;
     animation: caret 0.75s steps(1) infinite;
-    font-size: 5rem;
+    font-size: 80px;
 }
 
 @keyframes caret {
