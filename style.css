@@ -1,0 +1,74 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+body{
+    background: url('pexels-rostislav-5011647.jpg');
+    background-size:cover ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    color: rgb(10, 1, 1);
+}
+
+.typing-animation {
+    display: inline-block;
+    white-space: pre;
+    overflow: hidden;
+    animation: caret 0.75s steps(1) infinite;
+    font-size: 80px;
+}
+
+@keyframes caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+.skills {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid #000;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.box:hover {
+    background-color: #000;
+}
+ul li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
