@@ -5,6 +5,8 @@
 body{
     background: url('pexels-rostislav-5011647.jpg');
     background-size:cover ;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
 }
 .container {
     display: flex;
