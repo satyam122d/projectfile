@@ -24,7 +24,7 @@ body {
     white-space: pre;
     overflow: hidden;
     animation: caret 0.75s steps(1) infinite;
-    font-size: 70px
+    font-size: 70px;
 }
 
 @keyframes caret {
