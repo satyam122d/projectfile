@@ -4,7 +4,7 @@
 }
 body{
     background: url('pexels-rostislav-5011647.jpg');
-    background-size:cover;
+    background-size:auto;
 }
 .container {
     display: flex;
