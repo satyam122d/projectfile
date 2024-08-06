@@ -6,9 +6,11 @@
 body {
     background:url("pexels-rostislav-5011647.jpg");
     background-size:cover ;
+}
+h1{
+    font-size: 80px;
 
 }
-
 .container {
     display: flex;
     justify-content: center;
@@ -75,4 +77,10 @@ body {
 ul li {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 50px;
+        line-height: 56px;
+    }
 }
