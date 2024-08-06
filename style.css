@@ -6,14 +6,9 @@
 body {
     background:url("pexels-rostislav-5011647.jpg");
     background-size:cover ;
-    background-repeat: no-repeat;
-    background-position: center center; 
+
 }
-img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+
 .container {
     display: flex;
     justify-content: center;
